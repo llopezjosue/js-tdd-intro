@@ -8,7 +8,7 @@ describe('capitalizeFirst', () => {
       assert.strictEqual(typeof capitalizeFirstLetters, 'function');
     });
   
-    it('transforms javaScript correctly', () => {
+    it('transforms javascript is magic correctly', () => {
       assert.strictEqual(capitalizeFirstLetters('javascript is magic'), 'Javascript Is Magic');
     });
   
